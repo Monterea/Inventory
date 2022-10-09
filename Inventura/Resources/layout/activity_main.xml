@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" 
+    android:minWidth="25px" 
+    android:minHeight="25px" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:background="@android:color/white">
+<TextView android:id="@+id/textViewSum"
+        android:text="0" 
+        android:layout_marginTop="5dp" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:textSize="50sp"
+        android:textFontWeight="bold"
+        android:padding="10px"
+        android:textColor="@android:color/black"
+        android:background="?android:attr/textColorHintInverse"
+        android:gravity="center_horizontal" 
+        />
+<Button android:id="@+id/buttonIncrement"
+        android:text="+" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_blue_dark"
+        />
+<Button android:id="@+id/buttonIncrementMore"
+        android:text="++" 
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" 
+        />
+<Button android:id="@+id/buttonDecrement"
+        android:text="-"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_red_dark" android:shadowColor="@android:color/holo_green_dark" android:layout_width="match_parent" android:layout_height="wrap_content" 
+        />
+<Button android:id="@+id/buttonDecrementLast"
+        android:text="RESET - LAST ADDING" 
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_red_dark" android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" 
+        />
+<Button android:id="@+id/buttonReset"
+        android:text="RESET" android:background="@android:color/holo_red_dark" android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" 
+        />
+<Button android:id="@+id/buttonNextObject"
+        android:text="ADD ITEM" 
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" 
+        android:id="@+id/buttonAddObject"/>
+<Button android:id="@+id/buttonChangeObject"
+        android:text="CHANGE ITEM" 
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" 
+        />
+<Button android:id="@+id/buttonViewChanges"
+        android:text="DISPLAY - EDITING IN TIME" 
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" 
+        />
+<Button android:id="@+id/buttonViewObjectsSum"
+        android:text="DISPLAY - ALL ITEMS" 
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>
